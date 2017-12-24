@@ -6,4 +6,6 @@ COPY hspell.cgi /var/www/cgi-bin
 COPY hebrew.conf /etc/httpd/conf.d
 RUN chown -R apache:apache /var/log/httpd
 RUN chown -R apache:apache /run/httpd
-USER apache
+RUN chmod -R o+rwx /var/log/httpd
+RUN chmod -R o+rwx /run/httpd
+USER 999999
