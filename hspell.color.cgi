@@ -30,7 +30,7 @@ Content-type: text/html
 <STYLE>
 .spell {background-color: red; }
 </STYLE>
-<H1><A HREF=http://ivrix.org.il/projects/spell-checker/>Hspell</a> - המאיית העברי החופשי</H1>
+<H1><A HREF=http://hspell.ivrix.org.il/>Hspell</a> - המאיית העברי החופשי</H1>
 <H2>טופס הדגמה צבעוני</H2>
 כתבו כאן מילים לבדיקה. שגיאות ייצבעו באדום, 
 הצעות לתיקון יצוצו עם הזזת הסמן מעל שגיאה.<BR>

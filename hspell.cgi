@@ -29,7 +29,7 @@ Content-type: text/html
 <title>Hspell - Free Hebrew Spell-Checker</title></head>
 
 <HTML DIR=RTL>
-<H1><A HREF=http://ivrix.org.il/projects/spell-checker/>Hspell</a> - המאיית העברי החופשי</H1><H2>טופס הדגמה</H2>
+<H1><A HREF=http://hspell.ivrix.org.il/>Hspell</a> - המאיית העברי החופשי</H1><H2>טופס הדגמה</H2>
 עמוד זה מדגים את פעולת Hspell למי שאין ביכולתו/ברצונו להתקין אותה.<BR>
 אם אתם כאן כדי לבדוק טקסט שלכם, ומעוניינים פחות לבחון את התכונות המופלאות של
 Hspell, אתם מוזמנים לבדוק את 
