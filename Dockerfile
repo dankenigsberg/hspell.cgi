@@ -5,6 +5,7 @@ RUN sed -i "s/^Listen 80$/Listen \${PORT}/;s/^User apache/User daemon/;s/^Group 
 RUN echo RedirectMatch ^/$ /cgi-bin/hspell.cgi >> /etc/httpd/conf/httpd.conf
 COPY hspell.cgi hspell.color.cgi color.pl /var/www/cgi-bin/
 COPY hebrew.conf /etc/httpd/conf.d
+COPY favicon.ico /var/www/html/
 RUN chown -R daemon:daemon /var/log/httpd
 RUN chown -R daemon:daemon /run/httpd
 RUN chmod -R o+rwx /var/log/httpd
